@@ -7,7 +7,7 @@ Built with **React**, **Vite**, and **Node.js**, this app is a sleek, modern too
 🚀 Tech Stack
 - **Frontend:** React, Vite – Fast, responsive, and modern web development.
 - **Backend:** Node.js – A robust backend for handling API requests.
-- **APIs/Services:
+- **APIs/Services:**
   - **Attom API:** [Attom Property API](https://api.developer.attomdata.com/docs#!/14632Area32Boundary32Detail/getBoundary) - Get detailed property profiles by providing an address.
   - **WattBuy API:** [WattBuy Utility API](https://wattbuy.readme.io/reference/getting-started-with-your-api) - Access utility usage data to understand energy consumption patterns.
 🎯 Features
@@ -18,7 +18,7 @@ Ready to get started? Just follow these simple steps:
 1. Clone the Repository
 First, clone the repository to your local machine:
 ```bash
-git clone https://github.com/yourusername/property-details-app.git](https://github.com/neginheidarii/solenery-agent.git
+git clone https://github.com/neginheidarii/solenery-agent.git
 cd solenery-agent
 ```
 2. Install Dependencies
