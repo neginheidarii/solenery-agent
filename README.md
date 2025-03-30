@@ -4,6 +4,16 @@ Welcome to the **Property Details App**! 🏡 This web application allows you to
 
 Built with **React**, **Vite**, and **Node.js**, this app is a sleek, modern tool for those who need property insights and utility data at their fingertips.
 
+**Quick view:**
+
+<img width="1334" alt="Screenshot 2025-03-29 at 10 44 34 PM" src="https://github.com/user-attachments/assets/5765145c-6863-45c0-8039-3e885c1b181c" />
+**Search by postal code:**
+<img width="1201" alt="Screenshot 2025-03-29 at 10 45 26 PM" src="https://github.com/user-attachments/assets/ee984be9-258b-4555-a140-5e97e1966b21" />
+**Energy usage calculation::**
+<img width="1204" alt="Screenshot 2025-03-29 at 10 46 09 PM" src="https://github.com/user-attachments/assets/0bfc97d2-0202-42bf-9d23-83d15159ab2d" />
+**Error message:**
+<img width="1072" alt="Screenshot 2025-03-29 at 10 47 55 PM" src="https://github.com/user-attachments/assets/272dc82d-8575-48d8-a6db-9e73db41e46a" />
+
 🚀 Tech Stack
 - **Frontend:** React, Vite – Fast, responsive, and modern web development.
 - **Backend:** Node.js – A robust backend for handling API requests.
@@ -58,8 +68,12 @@ We’re always looking to improve! Here are some ideas for what’s next:
 - **Saved Searches:** Add the ability to save your searches and view them later.
 - **Smarter search:** Search by address and adding smarter search ability.
 - **More Data:** Integrate additional APIs for richer property details, including images, pricing trends, and neighborhood insights.
+
+
 🌐 Live Deployment
 Excited to see it in action? Check out the live version of the app here: [Live Demo](https://solenery-agent-ot9v.vercel.app/).
+
+
 📜 License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 Thank you for checking out the Property Details App! If you have any questions, suggestions, or contributions, feel free to open an issue or submit a pull request. Let’s build something great together! 🚀
