@@ -188,7 +188,7 @@ const ListingComponent = () => {
                                 <p><span className="font-semibold">💰 Average Cost:</span> ${energyUsage.avg_cost} per unit</p>
                                 <p><span className="font-semibold">🔋 Estimated Usage:</span> {energyUsage.est_usage} kWh</p>
                                 <p>
-                                    <span className="font-semibold">📆 Estimated MonthlY Bill:</span> ${energyUsage.est_bill_amount.min} - ${energyUsage.est_bill_amount.max}
+                                    <span className="font-semibold">📆 Estimated Monthly Bills:</span> ${energyUsage.est_bill_amount.min} - ${energyUsage.est_bill_amount.max}
                                 </p>
                             </div>
                         </div>
