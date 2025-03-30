@@ -3,15 +3,17 @@ import fetchListingByPostalCode from '../services/fetchListingByPostalCode';
 import fetchListingByAddress from '../services/fetchListingByAddress';
 import fetchEnergyUsage from '../services/ fetchEnergyUsage';
 
+
 const ListingComponent = () => {
+    // State variables to manage the search type, postal code, address, property details, energy usage, loading state, and error message
     const [searchType, setSearchType] = useState('postalCode');
     const [postalCode, setPostalCode] = useState('');
     const [address, setAddress] = useState({ line1: '', line2: '' });
     const [property, setProperty] = useState(null);
     const [energyUsage, setEnergyUsage] = useState(null);
-    const [error, setError] = useState('');
-    const [loading, setLoading] = useState(false); // New state for loading
     const [showEnergyUsage, setShowEnergyUsage] = useState(false);
+    const [error, setError] = useState('');
+    const [loading, setLoading] = useState(false); 
 
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -23,6 +25,7 @@ const ListingComponent = () => {
         try {
             let result;
             if (searchType === 'postalCode') {
+                // Fetch property by postal code
                 result = await fetchListingByPostalCode(postalCode);
                 if (result && result.length > 0) {
                     const firstProperty = result[0];
@@ -57,7 +60,7 @@ const ListingComponent = () => {
     // Calculate estimated number of windows based on size and rooms
     const calculateEstimatedWindows = () => {
         const totalRooms = property.building?.rooms.beds || 0;
-        console.log('Total rooms:', totalRooms); // Check if the value is correct
+        console.log('Total rooms:', totalRooms); 
         return Math.round(totalRooms * 1.25);        
     };
 
@@ -103,7 +106,7 @@ const ListingComponent = () => {
                                 value={postalCode}
                                 onChange={(e) => setPostalCode(e.target.value)}
                                 placeholder="Enter Postal Code"
-                                className="w-70 px-4 py-2 mx-4 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                className="w-full sm:w-3/4 md:w-1/2 px-4 py-2 mx-4 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
                                 required
                             />
                         ) : (
@@ -113,7 +116,7 @@ const ListingComponent = () => {
                                     value={address.line1}
                                     onChange={(e) => setAddress({ ...address, line1: e.target.value })}
                                     placeholder="Address Line 1 (e.g., 4529 Winona Court)"
-                                    className="w-50 mx-4  px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                    className="w-full sm:w-3/4 md:w-1/2 mx-4  px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
                                     required
                                 />
                                 <input
@@ -121,7 +124,7 @@ const ListingComponent = () => {
                                     value={address.line2}
                                     onChange={(e) => setAddress({ ...address, line2: e.target.value })}
                                     placeholder="Address Line 2 (e.g., Denver, CO)"
-                                    className="w-50 px-4  mx-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                    className="w-full sm:w-3/4 md:w-1/2 px-4  mx-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
                                     required
                                 />
                             </>
@@ -130,7 +133,7 @@ const ListingComponent = () => {
                         {/* Submit Button */}
                         <button
                             type="submit"
-                            className="w-30 bg-black text-white py-2 rounded-lg border border-transparent hover:bg-white hover:text-black hover:border-black transition-all duration-300 ease-in-out"
+                            className="w-full sm:w-1/3 bg-black text-white py-2 rounded-lg border border-transparent hover:bg-white hover:text-black hover:border-black transition-all duration-300 ease-in-out mx-auto"
                         >
                             Search
                         </button>
@@ -151,7 +154,7 @@ const ListingComponent = () => {
                     {property && (
                         <div className="mt-6 bg-white/70 backdrop-blur-lg border border-black/10 p-6 rounded-2xl shadow-lg text-black">
                             <h2 className="text-2xl font-bold text-black mb-4 border-b border-black/10 pb-2">🏡 Property Details</h2>
-                            <div className="grid grid-cols-1 gap-4 text-lg text-start  p-4 rounded-lg mt-4 text-start">
+                            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-lg text-start  p-4 rounded-lg mt-4 text-start">
                                 <p><span className="font-semibold">📍 Address:</span> {property.address?.oneLine}</p>
                                 <p><span className="font-semibold">🌆 City:</span> {property.address?.locality}</p>
                                 <p><span className="font-semibold">🏛️ State:</span> {property.address?.countrySubd}</p>
