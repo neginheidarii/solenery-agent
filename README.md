@@ -80,6 +80,4 @@ We’re always looking to improve! Here are some ideas for what’s next:
 Excited to see it in action? Check out the live version of the app here: [Live Demo](https://solenery-agent-ot9v.vercel.app/).
 
 
-📜 License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 Thank you for checking out the Property Details App! If you have any questions, suggestions, or contributions, feel free to open an issue or submit a pull request. Let’s build something great together! 🚀
