@@ -48,7 +48,7 @@ const ListingComponent = () => {
                 }
             }
         } catch (err) {
-            setError('Please enter a valid US postal code (e.g., 12345) or a full', err);
+            setError('Please enter a valid US postal code (e.g., 12345) or a full address', err);
         } finally {
             setLoading(false); // Hide loading indicator after fetch
         }
