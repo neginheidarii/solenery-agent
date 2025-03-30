@@ -3,6 +3,7 @@ Property Details App
 Welcome to the **Property Details App**! 🏡 This web application allows you to quickly view detailed property information by entering the postal code using the **Attom API** and view utility usage data with the **WattBuy API**.
 
 Built with **React**, **Vite**, and **Node.js**, this app is a sleek, modern tool for those who need property insights and utility data at their fingertips.
+
 🚀 Tech Stack
 - **Frontend:** React, Vite – Fast, responsive, and modern web development.
 - **Backend:** Node.js – A robust backend for handling API requests.
@@ -17,8 +18,8 @@ Ready to get started? Just follow these simple steps:
 1. Clone the Repository
 First, clone the repository to your local machine:
 ```bash
-git clone https://github.com/yourusername/property-details-app.git
-cd property-details-app
+git clone https://github.com/yourusername/property-details-app.git](https://github.com/neginheidarii/solenery-agent.git
+cd solenery-agent
 ```
 2. Install Dependencies
 Run the following command to install all the necessary packages:
@@ -55,9 +56,10 @@ We’re always looking to improve! Here are some ideas for what’s next:
 - **Enhanced Error Handling:** Make the app even more user-friendly with detailed, helpful error messages.
 - **UI/UX Enhancements:** We plan to improve the design, making it even more intuitive with features like loading spinners, interactive maps, and more.
 - **Saved Searches:** Add the ability to save your searches and view them later.
+- **Smarter search:** Search by address and adding smarter search ability.
 - **More Data:** Integrate additional APIs for richer property details, including images, pricing trends, and neighborhood insights.
 🌐 Live Deployment
-Excited to see it in action? Check out the live version of the app here: [Live Demo](https://your-deployment-url.com).
+Excited to see it in action? Check out the live version of the app here: [Live Demo](https://solenery-agent-ot9v.vercel.app/).
 📜 License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 Thank you for checking out the Property Details App! If you have any questions, suggestions, or contributions, feel free to open an issue or submit a pull request. Let’s build something great together! 🚀
