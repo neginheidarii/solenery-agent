@@ -56,8 +56,9 @@ const ListingComponent = () => {
 
     // Calculate estimated number of windows based on size and rooms
     const calculateEstimatedWindows = () => {
-        const totalRooms = property.building?.rooms?.roomsTotal || 0;
-        return Math.round(totalRooms * 1.25);
+        const totalRooms = property.building?.rooms.beds || 0;
+        console.log('Total rooms:', totalRooms); // Check if the value is correct
+        return Math.round(totalRooms * 1.25);        
     };
 
     return (
