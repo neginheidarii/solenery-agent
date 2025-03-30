@@ -7,11 +7,17 @@ Built with **React**, **Vite**, and **Node.js**, this app is a sleek, modern too
 **Quick view:**
 
 <img width="1334" alt="Screenshot 2025-03-29 at 10 44 34 PM" src="https://github.com/user-attachments/assets/5765145c-6863-45c0-8039-3e885c1b181c" />
+
 **Search by postal code:**
+
 <img width="1201" alt="Screenshot 2025-03-29 at 10 45 26 PM" src="https://github.com/user-attachments/assets/ee984be9-258b-4555-a140-5e97e1966b21" />
+
 **Energy usage calculation::**
+
 <img width="1204" alt="Screenshot 2025-03-29 at 10 46 09 PM" src="https://github.com/user-attachments/assets/0bfc97d2-0202-42bf-9d23-83d15159ab2d" />
+
 **Error message:**
+
 <img width="1072" alt="Screenshot 2025-03-29 at 10 47 55 PM" src="https://github.com/user-attachments/assets/272dc82d-8575-48d8-a6db-9e73db41e46a" />
 
 🚀 Tech Stack
