@@ -1,6 +1,8 @@
 # solenery-agent
 Property Details App
-Welcome to the **Property Details App**! 🏡 This web application allows you to quickly fetch detailed property information using the Attom API and view utility usage data with the WattBuy API. Built with **React**, **Vite**, and **Node.js**, this app is a sleek, modern tool for those who need property insights and utility data at their fingertips.
+Welcome to the **Property Details App**! 🏡 This web application allows you to quickly view detailed property information by entering the postal code using the **Attom API** and view utility usage data with the **WattBuy API**.
+
+Built with **React**, **Vite**, and **Node.js**, this app is a sleek, modern tool for those who need property insights and utility data at their fingertips.
 🚀 Tech Stack
 - **Frontend:** React, Vite – Fast, responsive, and modern web development.
 - **Backend:** Node.js – A robust backend for handling API requests.
